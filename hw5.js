@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 3000);
+app.set('port', 5432);
 
 
 
